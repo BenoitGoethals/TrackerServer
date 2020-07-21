@@ -1,37 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj": {}
+    "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/TestProjectTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj": {
+    "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/TestProjectTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj",
+        "projectUniqueName": "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/TestProjectTracker.csproj",
         "projectName": "TestProjectTracker",
-        "projectPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj",
-        "packagesPath": "C:\\Users\\benoit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\obj\\",
+        "projectPath": "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/TestProjectTracker.csproj",
+        "packagesPath": "/Users/benoit/.nuget/packages/",
+        "outputPath": "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\benoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/benoit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\benoit\\source\\nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/opsc3TI/_packaging/opsc3TI/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj": {
+                "projectPath": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -71,11 +68,73 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/benoit/.dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj",
+        "projectName": "TrackerServer",
+        "projectPath": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj",
+        "packagesPath": "/Users/benoit/.nuget/packages/",
+        "outputPath": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benoit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/benoit/.dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     }

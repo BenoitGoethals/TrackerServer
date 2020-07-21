@@ -26,6 +26,10 @@ namespace TrackerServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<AMCDbContext>(options => options      
+                .UseMySql("Server=localhost; Database=asp_mariadb_cfg;User=<username>;Password=<password>;",      
+                    mysqlOptions =>      
+                        mysqlOptions.ServerVersion(new ServerVersion(new Version(10, 4, 6), ServerType.MariaDb)))); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

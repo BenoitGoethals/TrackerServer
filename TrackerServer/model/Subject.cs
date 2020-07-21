@@ -16,6 +16,8 @@ namespace TrackerServer.model
         public List<PublicEvent> PublicEvents { get; set; }
         public StatusSubject StatusSubject { get; set; }
         
+        public string DossierNr { get; set; }
+        
         
         
 
