@@ -4,7 +4,23 @@ namespace TrackerServer.model
 {
     public class Symptoms 
     {
-        private int Id { get; set; }
+        public Symptoms(int id, bool fever, bool fatigue, bool adryCough, bool lossOfAppetite, bool shortnessOfBreath, bool mucus, string extraInfo)
+        {
+            Id = id;
+            Fever = fever;
+            Fatigue = fatigue;
+            AdryCough = adryCough;
+            LossOfAppetite = lossOfAppetite;
+            ShortnessOfBreath = shortnessOfBreath;
+            Mucus = mucus;
+            ExtraInfo = extraInfo;
+        }
+
+        public Symptoms()
+        {
+        }
+
+        public int Id { get; set; }
         public Boolean Fever { get; set; }
         public Boolean Fatigue { get; set; }
         public Boolean AdryCough { get; set; }

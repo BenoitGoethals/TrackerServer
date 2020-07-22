@@ -29,8 +29,8 @@ namespace TestProjectTracker
                 Email = "benoit.goethals@gmail.com",
                 Job = "family",
                 Family = null,
-                Telephones = new List<string>(){"056765445","056876756"},
-                Type = Realtion.Father,
+          //      Telephones = new List<string>(){"056765445","056876756"},
+                Relation = Relation.Cousin,
                 BirthDate = DateTime.Now,
                 NationalNbr = "045674534"
             };
@@ -41,7 +41,7 @@ namespace TestProjectTracker
                 Person = person,
                 Symtoms = new Symptoms(){Fatigue = true},
                 CoronaTest = DateTime.Now,
-                CoronatestPositive = true,
+                CoronatTstPositive = true,
                 ExtraInformation = "test",
                 FirstSigns = DateTime.Now,
                 StatusSubject = StatusSubject.Quaritaine,
@@ -73,8 +73,8 @@ namespace TestProjectTracker
                             Email = "benoit.goethals@gmail.com",
                             Job = "family",
                             Family = null,
-                            Telephones = new List<string>(){"056765445","056876756"},
-                            Type = Realtion.Father,
+                     //       Telephones = new List<string>(){"056765445","056876756"},
+                            Relation = Relation.Father,
                             BirthDate = DateTime.Now,
                             NationalNbr = "045674534"
                         }

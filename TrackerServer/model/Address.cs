@@ -2,12 +2,31 @@
 {
     public class Address
     {
+        public Address(int id, string street, string nr, string zipCode, string city, Country country, int addressOfPersonId, Person person)
+        {
+            Id = id;
+            Street = street;
+            Nr = nr;
+            ZipCode = zipCode;
+            City = city;
+            Country = country;
+            AddressOfPersonId = addressOfPersonId;
+            Person = person;
+        }
+
+        public Address()
+        {
+        }
+
         public int Id { get; set; }
         public string Street { get; set; }
         public string Nr { get; set; }
         public string ZipCode { get; set; }
         public string City { get; set; }
         public Country Country { get; set; }
+
+        public int AddressOfPersonId { get; set; }
+        public Person Person { get; set; }
 
         protected bool Equals(Address other)
         {

@@ -2,6 +2,16 @@
 {
     public class Country
     {
+        public Country(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+
+        public Country()
+        {
+        }
+
         public int Id { get; set; }
         public string Name { get; set; }
 

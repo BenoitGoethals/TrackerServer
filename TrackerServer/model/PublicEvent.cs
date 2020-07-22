@@ -5,6 +5,22 @@ namespace TrackerServer.model
 {
     public class PublicEvent
     {
+        public PublicEvent(int id, string nameEvent, DateTime dateTimeEvent, TypeEvent typeEvent, string description, int peoples, bool possibleGroundZeroBySubject)
+        {
+            Id = id;
+            NameEvent = nameEvent;
+            DateTimeEvent = dateTimeEvent;
+            TypeEvent = typeEvent;
+            Description = description;
+            Peoples = peoples;
+            PossibleGroundZeroBySubject = possibleGroundZeroBySubject;
+        
+        }
+
+        public PublicEvent()
+        {
+        }
+
         public int Id { get; set; }
         public string NameEvent { get; set; }
         public DateTime DateTimeEvent { get; set; }
@@ -12,7 +28,7 @@ namespace TrackerServer.model
         public string Description { get; set; }
         public int Peoples { get; set; }
         public Boolean PossibleGroundZeroBySubject { get; set; }
-        public List<Person> KnownPerson { get; set; }
+        public List<Person> KnownPerson { get; set; } = new List<Person>();
         
 
         protected bool Equals(PublicEvent other)

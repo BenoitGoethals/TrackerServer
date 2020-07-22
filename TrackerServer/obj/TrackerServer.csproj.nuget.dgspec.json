@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj": {}
+    "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj": {}
   },
   "projects": {
-    "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj": {
+    "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj",
+        "projectUniqueName": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj",
         "projectName": "TrackerServer",
-        "projectPath": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj",
-        "packagesPath": "/Users/benoit/.nuget/packages/",
-        "outputPath": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/obj/",
+        "projectPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj",
+        "packagesPath": "C:\\Users\\benoit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/benoit/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\benoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\benoit\\source\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +45,34 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -59,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/benoit/.dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
