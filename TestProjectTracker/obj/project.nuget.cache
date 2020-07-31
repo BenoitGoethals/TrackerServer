@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3n+VIqXbhJG15h1kk0Yk7qb/BuCCPns4B5v8ZpGV/IAHbPhNcDbVScwyPpClHJK2bRIDjFjdPcQRgs3G6jJNDQ==",
+  "dgSpecHash": "ov75QNaH2TxJBSZWdwyyvIfyr2C/G/oyArCmzFFlStZOanyknjE+a5Kplx4qadCe18wcJzQJRFPjXDXLoPSriw==",
   "success": true,
   "projectFilePath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benoit\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\benoit\\.nuget\\packages\\csv\\1.0.57\\csv.1.0.57.nupkg.sha512",
     "C:\\Users\\benoit\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\benoit\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\benoit\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

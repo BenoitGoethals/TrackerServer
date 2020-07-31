@@ -12,7 +12,7 @@ namespace TrackerServer.DAL
             builder.Property(s => s.City).HasColumnName(nameof(Address.City)).IsRequired();
             builder.Property(s => s.Nr).HasColumnName(nameof(Address.Nr)).IsRequired();
             builder.Property(s => s.Street).HasColumnName(nameof(Address.Street)).IsRequired();
-            builder.Property(s => s.ZipCode).HasColumnName(nameof(Address.ZipCode)).IsRequired();
+            builder.HasOne<ZipCode>(s => s.ZipCode);
             builder.Property(s => s.Nr).HasColumnName(nameof(Address.Nr)).IsRequired();
             builder.HasOne<Country>(s => s.Country);
         }

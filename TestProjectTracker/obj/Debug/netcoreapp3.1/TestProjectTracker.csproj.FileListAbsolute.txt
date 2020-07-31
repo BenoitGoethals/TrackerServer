@@ -123,3 +123,8 @@ C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\obj\Debug\netcore
 C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\obj\Debug\netcoreapp3.1\TestProjectTracker.dll
 C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\obj\Debug\netcoreapp3.1\TestProjectTracker.pdb
 C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\obj\Debug\netcoreapp3.1\TestProjectTracker.genruntimeconfig.cache
+C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\bin\Debug\netcoreapp3.1\Csv.dll
+C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\benoit\RiderProjects\TrackerServer\TestProjectTracker\bin\Debug\netcoreapp3.1\zipcodes_alpha_nl.csv

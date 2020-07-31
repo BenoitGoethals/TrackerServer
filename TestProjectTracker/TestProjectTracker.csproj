@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Csv" Version="1.0.57" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
@@ -22,6 +23,13 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TrackerServer\TrackerServer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="zipcodes_alpha_nl.csv" />
+      <Content Include="zipcodes_alpha_nl.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dJAP9D+urnbd8BLm2P3Hsj1OvMEUxHFNiRYgOC0D1Rz3DMwIsYEnDNOlAdAdS6gGULGUDq8K52fKACGvivDcVQ==",
+  "dgSpecHash": "jfDycsoVgf9/JXaT8k+iUGict/MZOZLGPykxuXiydaG6xEFV90AKww2R0dyzG6MFOydeamP07KXAsxREntAK+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\benoit\\.nuget\\packages\\csv\\1.0.57\\csv.1.0.57.nupkg.sha512",
     "C:\\Users\\benoit\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\benoit\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\benoit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Csv/1.0.57": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Csv.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Csv.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -562,6 +571,26 @@
     }
   },
   "libraries": {
+    "Csv/1.0.57": {
+      "sha512": "fzsR+t6LQoNEWxDzo2QQOZHwxXbZdyU4xufJAXd8WQtRQKsFN3pJAs20sT84A6Y3gwmTslylioji4EPt57465w==",
+      "type": "package",
+      "path": "csv/1.0.57",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csv.1.0.57.nupkg.sha512",
+        "csv.nuspec",
+        "icon.png",
+        "lib/net40/Csv.dll",
+        "lib/net40/Csv.xml",
+        "lib/netcoreapp3.1/Csv.dll",
+        "lib/netcoreapp3.1/Csv.xml",
+        "lib/netstandard1.0/Csv.dll",
+        "lib/netstandard1.0/Csv.xml",
+        "lib/netstandard2.1/Csv.dll",
+        "lib/netstandard2.1/Csv.xml"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1718,6 +1747,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Csv >= 1.0.57",
       "Microsoft.EntityFrameworkCore >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.6",
@@ -1770,6 +1800,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Csv": {
+            "target": "Package",
+            "version": "[1.0.57, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.6, )"

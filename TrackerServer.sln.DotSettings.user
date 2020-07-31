@@ -1,6 +1,31 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea9d7acc_002Df7dc_002D4c99_002Dacf6_002D1a310590db87/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=83b2360c_002D0c7a_002D40b4_002D9b5f_002Dcc8d4e2e858b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoadZipCode" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.SubjectTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.ZipCodeTest.LoadZipCode&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea9d7acc_002Df7dc_002D4c99_002Dacf6_002D1a310590db87/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Or&gt;&#xD;
+      &lt;Or&gt;&#xD;
+        &lt;Or&gt;&#xD;
+          &lt;TestAncestor&gt;&#xD;
+            &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.SubjectTest.Test&lt;/TestId&gt;&#xD;
+          &lt;/TestAncestor&gt;&#xD;
+          &lt;TestAncestor&gt;&#xD;
+            &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.ZipCodeTest.LoadZipCode&lt;/TestId&gt;&#xD;
+          &lt;/TestAncestor&gt;&#xD;
+        &lt;/Or&gt;&#xD;
+        &lt;TestAncestor&gt;&#xD;
+          &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.ZipCodeTest&lt;/TestId&gt;&#xD;
+        &lt;/TestAncestor&gt;&#xD;
+      &lt;/Or&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.PersonTest.SaveTest&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+    &lt;/Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::BC5849A4-CC15-43D9-92FF-FB4C94C4D97A::.NETCoreApp,Version=v3.1::TestProjectTracker.SubjectTest.SaveSubject&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
