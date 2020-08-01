@@ -1,27 +1,22 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj",
+    "projectUniqueName": "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/TestProjectTracker.csproj",
     "projectName": "TestProjectTracker",
-    "projectPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\TestProjectTracker.csproj",
-    "outputPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TestProjectTracker\\obj\\",
+    "projectPath": "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/TestProjectTracker.csproj",
+    "outputPath": "/Users/benoit/RiderProjects/TrackerServer/TestProjectTracker/obj/",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "C:\\Users\\benoit\\source\\nuget": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj": {
-            "projectPath": "C:\\Users\\benoit\\RiderProjects\\TrackerServer\\TrackerServer\\TrackerServer.csproj"
+          "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj": {
+            "projectPath": "/Users/benoit/RiderProjects/TrackerServer/TrackerServer/TrackerServer.csproj"
           }
         }
       }
@@ -75,6 +70,22 @@
           "target": "Package",
           "version": "[3.1.1, )"
         },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        },
+        "Swashbuckle.AspNetCore.Swagger": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUI": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        },
         "coverlet.collector": {
           "target": "Package",
           "version": "[1.2.0, )"
@@ -106,7 +117,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/Users/benoit/.dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
     }
   }
 }

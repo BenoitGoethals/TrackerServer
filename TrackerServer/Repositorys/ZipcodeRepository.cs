@@ -23,6 +23,7 @@ namespace TrackerServer.Repositorys
 
         public IEnumerable<ZipCode> Zipcode(string id)
         {
+            _logger.LogInformation("get id "+id);
             return _context.ZipCodes.Where(b => b.Code.Equals(id)).ToList();
         }
     }

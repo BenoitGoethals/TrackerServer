@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using TrackerServer.model;
@@ -8,6 +10,8 @@ namespace TrackerServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+  
+    [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
     public class ZipCodeController : ControllerBase
     {
       
@@ -21,6 +25,9 @@ namespace TrackerServer.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+        [Produces("application/xml")] 
         public IEnumerable<ZipCode> Get()
         {
             return _repository.Zipcodes();
@@ -28,6 +35,8 @@ namespace TrackerServer.Controllers
         
 
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(IEnumerable), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public IEnumerable<ZipCode> Get(string id) => _repository.Zipcode(id);
 
     }

@@ -3,8 +3,9 @@ using TrackerServer.model;
 
 namespace TrackerServer.Repositorys
 {
-    public interface IRepository
+    public interface ISubjectRepository
     {
         public IEnumerable<Subject> Subjects();
+        public void Save(Subject subject);
     }
 }

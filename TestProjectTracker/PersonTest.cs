@@ -30,32 +30,32 @@ namespace TestProjectTracker
                 {
                     
              
-                Person person=new Person()
-                {
-                    Name = "Goethals"+i,
-                    ForName = "benoit"+i,
-                    Address = new Address()
+                    Person person=new Person()
                     {
-                        City = "Gent",
-                        Country = new Country(){Name = "France"},
-                        Nr = "13",
-                        Street = "noor",
-                        ZipCode = new ZipCode(){City = "dendermonde",Code = "9200"}
+                        Name = "Goethals"+i,
+                        ForName = "benoit"+i,
+                        Address = new Address()
+                        {
+                            City = "Gent",
+                            Country = new Country(){Name = "France"},
+                            Nr = "13",
+                            Street = "noor",
+                            ZipCode = new ZipCode(){City = "dendermonde",Code = "9200"}
                     
-                    },
-                    Country = new Country(){Name = "Belgie"},
-                    Email = "benoit.goethals@gmail.com",
-                    Job = "family",
-                    Family = null,
-                    //      Telephones = new List<string>(){"056765445","056876756"},
-                    Relation = Relation.Cousin,
-                    BirthDate = DateTime.Now,
-                    NationalNbr = "045674534"
+                        },
+                        Country = new Country(){Name = "Belgie"},
+                        Email = "benoit.goethals@gmail.com",
+                        Job = "family",
+                        Family = null,
+                        //      Telephones = new List<string>(){"056765445","056876756"},
+                        Relation = Relation.Cousin,
+                        BirthDate = DateTime.Now,
+                        NationalNbr = "045674534"
                     
                     
                     
-                };
-                context.Persons.Add(person);
+                    };
+                    context.Persons.Add(person);
                 }
                 context.SaveChanges();
 
