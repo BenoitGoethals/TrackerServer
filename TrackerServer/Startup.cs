@@ -15,6 +15,7 @@ using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Pomelo.EntityFrameworkCore.MySql.Storage;
 using Microsoft.Extensions.Logging;
 using TrackerServer.DAL;
+using TrackerServer.Repositorys;
 
 namespace TrackerServer
 {
@@ -29,16 +30,18 @@ namespace TrackerServer
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {  services.AddDbContext<ApplicationContext>(options => options      
+                         .UseMySql("Server=192.168.0.160; Database=Tracker;User=benoit;Password=password;",      
+                             mysqlOptions =>      
+                                 mysqlOptions.ServerVersion(new ServerVersion(new Version(5, 5, 57), ServerType.MariaDb)))); 
             services.AddLogging(opt =>
             {
                 opt.AddConsole();
             });
+            services.AddScoped<IRepository,SubjectRepository>();
+            services.AddScoped<IZipcodeRepository,ZipcodeRepository>();
             services.AddControllers();
-            services.AddDbContext<ApplicationContext>(options => options      
-                .UseMySql("Server=192.168.0.160; Database=Tracker;User=benoit;Password=password;",      
-                    mysqlOptions =>      
-                        mysqlOptions.ServerVersion(new ServerVersion(new Version(5, 5, 57), ServerType.MariaDb)))); 
+          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

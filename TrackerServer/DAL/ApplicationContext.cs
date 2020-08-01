@@ -15,14 +15,10 @@ namespace TrackerServer.DAL
         public DbSet<Subject> Subjects{ get; set; }
         public DbSet<PublicEvent> PublicEvents { get; set; }
         public DbSet<Country> Countries { get; set; }
+        public DbSet<ZipCode> ZipCodes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         { 
-            //  optionsBuilder.UseMySql("Server=192.168.0.160; Database=Tracker;User=benoit;Password=password;",      
-            //    mysqlOptions =>      
-            //      mysqlOptions.ServerVersion(new ServerVersion(new Version(5, 5, 57), ServerType.MariaDb))); 
-            
-            
-            
+           
         }
               
         protected override void OnModelCreating(ModelBuilder modelBuilder)
